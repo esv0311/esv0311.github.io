@@ -8,41 +8,109 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css.stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Esther Vemberly</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+  <div class="box-area">
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html">esther vemberly</a>
+        </div>
+        <nav>
+          <a href="#ABOUTME">ABOUT ME</a>
+          <a href="#EDUCATION">EDUCATION</a>
+          <a href="#EXPERIENCE">EXPERIENCE</a>
+        </nav>
+      </div>
+    </header>
+    <div class="banner-area">
+      <h2 id="hello">Hello!</h2>
+      <div class="banner-form"id="formpart">
+        <form>
+          What is your nickname?<br>
+          <input type="text" id="name">
+          <input type="button" value="submit" onclick="writeName()">
+        </form>
+      </div>
+      <h3>I'm Esther Vemberly</h3>
+      <p>Connect with me on:</p>
+      <br>
+      <div class="banner-button">
+        <a id="button1" href ="https://www.instagram.com/esther.vemberly/" class="button">
+          <img id="image1" src="./instagram.png" alt="logoInstagram">  Instagram</a>
+        <a id="button2" href ="https://www.linkedin.com/in/esther-vemberly/" class="button">
+          <img id="image2"src="./linkedin.png" alt="logoLinkedIn" width=25px>  LinkedIn</a>
+      </div>
+    </div>
+    <div class="banner-image">
+      <img src="css/self.png" alt="self" class="image">
+      <div class="middle">
+        <div class="text">Esther V</div>
+    </div>
+    <div class="content-area" id="ABOUTME">
+      <div class="wrapper">
+        <h2>about me</h2>
+        <p>I'm an aspiring multi-potentialite and in the process of cultivating every single talents that I have for God's glory. 
+        <br>I love to empower others to know their own values.</p>
+      </div>
+    </div>
+    <div class="education" id="EDUCATION">
+      <h2>education</h2>
+      <h3>and achievement</h3>
+      <div id="div1">
+        <div class="school">
+          <p>Binus University</p>
+          <ul>Chosen to participate in a selection and accepted to study in Global Class Program</ul>
+          <img src="./binuslogo.png" alt="logobinus">
+        </div>
+      </div>
+      <div id="div2">
+        <div class="school">
+          <p>SMP Pahoa</p>
+          <ul>
+            <li>Achieved the third highest diploma score out of 281 students
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li>Achieved perfect score on math national examination</li>
+          </ul>
+          <img src="./pahoalogo.png" alt="logopahoa">
+        </div>
+      </div>
+      <div id="div3">
+        <div class="school">
+          <p>SMA Citra Berkat</p>
+          <ul>
+            <li>Graduated as valedictorian
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+            <li>
+              Awarded as the best student of entrepreneurship character
+              </li>
+            <li>
+              1st winner of final paper competition at Citra Kasih Foundation (out of 6 schools in 6 cities)
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    
-    <div style="margin-top:100px">
-    <button type="button" class="btn btn-success">Hello Click Me!</button>
-    <a href="https://tokopedia.com" role="button" class="btn btn-primary">Tokopedia</a>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <img src="./scblogo.png" alt="logociber">
+        </div></div>
     </div>
+    <div class="experience" id="EXPERIENCE">
+      <h2>experience</h2>
+      <br>
+      <br>
+      <div class="experience-button">
+        <a id="buttonCV" href ="./CV_Esther.pdf" class="button">Curriculum Vitae</a>
+    </div>
+  </div>
 </body>
+<script type="text/javascript">
+  function writeName (){
+    var welcomeMsg = document.getElementById('hello');
+    var name = document.getElementById('name');
+    var formContent = document.getElementById('formpart');
+
+    welcomeMsg.innerHTML = 'Hello, ' + name.value +' !'
+    
+    formContent.innerHTML = "";
+  }
+</script>
+
 </html>
